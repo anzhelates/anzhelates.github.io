@@ -2,7 +2,6 @@ const btnRate = document.getElementById("btnRate");
 const startDate = document.getElementById("startDate");
 const endDate = document.getElementById("endDate");
 const currency = document.getElementById("currency");
-const sectionData = document.getElementById("data");
 
 const BASE_URL = "https://bank.gov.ua/NBU_Exchange/exchange_site?start=";
 const CURRENCY_LIST_URL = "https://bank.gov.ua/NBU_Exchange/exchange_site?sort=exchangedate&order=desc&json";
